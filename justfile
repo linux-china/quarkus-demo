@@ -6,5 +6,8 @@ build:
 native_build:
   mvn -Pnative -DskipTests clean package
 
+docker_build: native_build
+  docker build -f src/main/docker/Dockerfile -t linuxchina/quarkus-demo .
+  
 debug:
   mvn compile quarkus:dev -Ddebug=true
