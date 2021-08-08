@@ -1,4 +1,4 @@
-export GRAALVM_HOME := "/Users/linux_china/.jenv/candidates/java/graalvm-21.1-java11"
+export GRAALVM_HOME := "/Users/linux_china/.jenv/candidates/java/graalvm-21.2-java11"
 
 build:
   mvn -DskipTests clean package
