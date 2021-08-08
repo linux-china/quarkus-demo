@@ -15,3 +15,6 @@ docker_run:
 
 debug:
   mvn compile quarkus:dev -Ddebug=true
+
+buildpack:
+   pack build quarkus-demo --path ./ --builder redhat/buildpacks-builder-quarkus-native:latest
