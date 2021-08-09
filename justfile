@@ -3,14 +3,14 @@ export GRAALVM_HOME := "/Users/linux_china/.jenv/candidates/java/graalvm-21.2-ja
 build:
   mvn -DskipTests clean package
 
-native_build:
+native-build:
   mvn -Pnative -DskipTests clean package
 
-docker_build:
+docker-build:
   mvn -DskipTests clean package -Pnative -Dnative-image.docker-build=true
   docker build -f src/main/docker/Dockerfile -t linuxchina/quarkus-demo .
 
-docker_run:
+docker-run:
   docker run -i --rm -p 8080:8080 linuxchina/quarkus-demo
 
 debug:
