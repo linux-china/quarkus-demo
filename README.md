@@ -3,6 +3,12 @@ Quarkus Demo
 
 A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted from the best of breed Java libraries and standards.
 
+# Books
+
+* Pro Java Microservices with Quarkus and Kubernetes: https://learning.oreilly.com/library/view/pro-java-microservices/9781484271704/
+* Reactive Systems in Java:  https://learning.oreilly.com/library/view/reactive-systems-in/9781492091714
+* Quarkus Cookbook: https://learning.oreilly.com/library/view/quarkus-cookbook/9781492062646/
+
 ### References
 
 * Quarkus Home: https://quarkus.io/
