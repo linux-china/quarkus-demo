@@ -21,3 +21,4 @@ A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted f
 * Camel Quarkus 2.1.0 Released: https://camel.apache.org/blog/2021/07/camel-quarkus-release-2.1.0/
 * Quarkus Buildpacks: https://github.com/quarkusio/quarkus-buildpacks
 * Jakarta RESTful Web Services 3.0: https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html
+* Jakarta RESTful Web Services 2.1: https://quarkus.io/specs/jaxrs/2.1/index.html
