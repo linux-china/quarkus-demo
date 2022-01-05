@@ -22,3 +22,4 @@ A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted f
 * Quarkus Buildpacks: https://github.com/quarkusio/quarkus-buildpacks
 * Jakarta RESTful Web Services 3.0: https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html
 * Jakarta RESTful Web Services 2.1: https://quarkus.io/specs/jaxrs/2.1/index.html
+* Reactive Systems in Java with Quarkus: https://learning.oreilly.com/library/view/reactive-systems-in/9781492091714
